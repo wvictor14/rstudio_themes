@@ -1,26 +1,22 @@
----
-title: "Rstudio themes"
-output: 
-    github_document:
-        toc: true
-        toc_depth: 2
-editor_options: 
-  chunk_output_type: console
----
+Rstudio themes
+================
 
-# 49th Parallel :coffee:
+-   [49th Parallel :coffee:](#th-parallel-coffee)
+
+49th Parallel :coffee:
+======================
 
 A dark Rstudio theme created as thanks to a particular Vancouver coffee shop that fueled many productive mornings.
 
 ![](images/preview_49th_parallel.png)
 
-To install, 
+To install,
 
 Step 1. Make a coffee :coffee:
 
 Step 2. Open R, run the following:
 
-```{r, eval = F}
+``` r
 rstudioapi::addTheme("https://github.com/wvictor14/rstudio_themes/49th Parallel.rstheme",
                      apply = TRUE)
 ```
