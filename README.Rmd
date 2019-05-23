@@ -1,0 +1,33 @@
+---
+title: "README"
+author: "Victor"
+date: "May 23, 2019"
+output: 
+    github_document:
+        toc: true
+        toc_depth: 2
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# 49th Parallel
+
+A dark theme inspired by Vancouver's 49th parallel coffee shop.
+
+![](images/preview_49th_parallel.png)
+
+To install, can run the following
+
+```{r}
+rstudioapi::addTheme("https://github.com/wvictor14/rstudio_themes/49th Parallel.rstheme",
+                     apply = TRUE)
+```
