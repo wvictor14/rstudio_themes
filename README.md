@@ -8,11 +8,13 @@ Rstudio themes
 A dark Rstudio theme created as thanks to a particular Vancouver coffee
 shop that fueled many productive mornings.
 
-*Requires Rstudio version \> 1.2*
+*Requires Rstudio version \>
+1.2*
 
-![](images/preview_49th_parallel.png)
+<img src="images/preview_49th_parallel.png" width="770" height="550" style="display: block; margin: auto;" />
+<br>
 
-To install,
+**To install,**
 
 **Step 1.** Make a coffee :coffee:
 
@@ -32,5 +34,4 @@ rstudioapi::addTheme(theme_49th_parallel,
                      apply = TRUE)
 ```
 
-**Step 3.** Start coding, while enjoying a nice hot cup of jo :yum:
-:computer:
+**Step 3.** Start coding, while enjoying a your coffee :yum: :computer:

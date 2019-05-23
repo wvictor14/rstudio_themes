@@ -14,9 +14,12 @@ A dark Rstudio theme created as thanks to a particular Vancouver coffee shop tha
 
 *Requires Rstudio version > 1.2* 
 
-![](images/preview_49th_parallel.png)
+```{r, echo = F, out.width=770, out.height=550, fig.align = 'center'}
+knitr::include_graphics("images/preview_49th_parallel.png")
+```
+<br>
 
-To install, 
+**To install,** 
 
 **Step 1.** Make a coffee :coffee:
 
@@ -36,4 +39,4 @@ rstudioapi::addTheme(theme_49th_parallel,
                      apply = TRUE)
 ```
 
-**Step 3.** Start coding, while enjoying a nice hot cup of jo :yum: :computer:
+**Step 3.** Start coding, while enjoying a your coffee :yum: :computer:
