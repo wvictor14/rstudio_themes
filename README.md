@@ -18,7 +18,7 @@ shop that fueled many productive mornings.
 
 **Step 1.** Make a coffee :coffee:
 
-**Step 2.** Open R, run the following:
+**Step 2.** Open R and run the following:
 
 ``` r
 # create temporary download directory
@@ -34,4 +34,4 @@ rstudioapi::addTheme(theme_49th_parallel,
                      apply = TRUE)
 ```
 
-**Step 3.** Start coding, while enjoying a your coffee :yum: :computer:
+**Step 3.** Start coding while enjoying your coffee :yum: :computer:
